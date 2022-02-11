@@ -55,15 +55,11 @@
   justify-content: center;
 }
 
-.rupee-icons {
-  font-size: 1.2rem;
-  font-weight: 700;
-}
-
 .card-price {
-  font-size: 1.4rem;
+  font-size: 1.8rem;
   padding-top: 0.5rem;
   padding-bottom: 0.8rem;
+  font-weight: 600;
 }
 
 .card-btn {

@@ -1,5 +1,4 @@
 @import "/assets/css/reset.css";
-@import "/assets/css/nav.css";
 @import "/assets/css/sidebar.css";
 
 .container {
@@ -82,17 +81,6 @@
   justify-content: center;
 }
 
-.rupee-icon {
-  font-size: 1.5rem;
-  font-weight: 700;
-}
-
-.card-price {
-  font-size: 1.4rem;
-  padding-top: 0.5rem;
-  padding-bottom: 0.8rem;
-}
-
 .card-btn {
   width: 15vw;
   height: 3.5rem;
@@ -131,4 +119,18 @@
   top: 1.3rem;
   right: 1.3rem;
   color: var(--red);
+}
+.rupee-icon {
+  font-size: 2.4rem;
+  font-weight: 400;
+}
+
+.card-price {
+  font-size: 1.8rem;
+  font-weight: 600;
+}
+
+.card-price-cut {
+  font-size: 1.8rem;
+  font-weight: 600;
 }
