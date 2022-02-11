@@ -1,0 +1,65 @@
+.card-img {
+  height: 25rem;
+  width: 90%;
+  background-color: var(--white);
+  border-radius: 1rem;
+  margin-top: 1rem;
+  box-shadow: rgba(50, 50, 93, 0.25) 0px 13px 27px -5px,
+    rgba(0, 0, 0, 0.3) 0px 8px 16px -8px;
+}
+
+.card-container {
+  width: 100%;
+  position: relative;
+}
+
+.card-1 {
+  width: 100%;
+}
+
+.card-pricing {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.card-price {
+  font-size: 1.8rem;
+  font-weight: 600;
+}
+
+.card-btn {
+  width: 15vw;
+  margin-bottom: 1rem;
+}
+
+.card-container-content {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+.fav-back {
+  position: absolute;
+  top: 1.5rem;
+  right: 1.8rem;
+  height: 3rem;
+  width: 3rem;
+  border-radius: 50%;
+  background-color: var(--white);
+}
+
+.card-fav {
+  position: absolute;
+  top: 1.8rem;
+  right: 2.1rem;
+  color: var(--grey);
+}
+
+.fav-red {
+  position: absolute;
+  top: 1.8rem;
+  right: 2.1rem;
+  color: var(--red);
+}
