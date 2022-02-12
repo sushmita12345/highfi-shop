@@ -18,8 +18,11 @@ html {
   --grey: #b2b2b2;
   --back-grey: #f5f5f5;
   --black-shade: rgba(0, 0, 0, 0.16);
-  --white: white;
-  --red: red;
+  --dark-shade1: rgba(50, 50, 93, 0.25);
+  --dark-shade2: rgba(0, 0, 0, 0.3);
+  --dark-shade3: rgba(0, 0, 0, 0.1);
+  --white: #faf9f6;
+  --red: #ee4b2b;
   --login-blue: #3b82f6;
   --background-color: #f8f8f8;
 }

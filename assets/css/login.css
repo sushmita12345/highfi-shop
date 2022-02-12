@@ -18,8 +18,8 @@
   align-items: center;
   background-color: var(--white);
   padding: 3rem 5rem;
-  border-radius: 0.5rem;
-  box-shadow: rgba(0, 0, 0, 0.16) 0px 1px 4px;
+  border-radius: 5px;
+  box-shadow: var(--black-shade) 0px 1px 4px;
 }
 
 .form-info {
@@ -43,7 +43,7 @@
 .login-box {
   height: 4rem;
   width: 25vw;
-  border: 0.1rem solid var(--grey);
+  border: 1px solid var(--grey);
   border-radius: 5px;
   padding-left: 1rem;
   margin-bottom: 2rem;
@@ -65,7 +65,7 @@
   height: 1.8rem;
   width: 1.8rem;
   margin-bottom: 2rem;
-  border: 0.1rem solid var(--grey);
+  border: 1px solid var(--grey);
 }
 
 .login-remember {

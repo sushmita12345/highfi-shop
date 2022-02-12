@@ -55,9 +55,9 @@
   height: 3.5rem;
   position: absolute;
   top: 10rem;
-  left: 0rem;
+  left: 0px;
   border: none;
-  background-color: white;
+  background-color: var(--white);
 }
 
 .mid-main {
@@ -115,7 +115,7 @@
     height: 2.5rem;
     position: absolute;
     top: 6.5rem;
-    left: 0rem;
+    left: 0px;
     border: none;
     background-color: white;
   }
@@ -176,9 +176,9 @@
     height: 2.2rem;
     position: absolute;
     top: 3.8rem;
-    left: 0rem;
+    left: 0px;
     border: none;
-    font-size: 0.8rem;
+    font-size: 8px;
     background-color: var(--white);
   }
 }
@@ -187,7 +187,6 @@
   nav {
     display: flex;
     align-items: center;
-    /* flex-wrap: wrap; */
     height: 6rem;
   }
 
@@ -199,7 +198,7 @@
   .search-bar {
     width: 8rem;
     height: 3rem;
-    font-size: 0.8rem;
+    font-size: 8px;
   }
 
   .nav-btn {
@@ -262,7 +261,7 @@
     height: 2rem;
     position: absolute;
     top: 3rem;
-    left: 0rem;
+    left: 0px;
     border: none;
     background-color: white;
   }
