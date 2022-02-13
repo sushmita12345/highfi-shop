@@ -1,0 +1,138 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="https://fonts.googleapis.com/icon?family=Material+Icons">
+    <link rel="stylesheet" href="/assets/css/myCart.css">
+</head>
+<body>
+    <header>
+        <nav>
+            <a href="/"><img src="../assets/img/logo.png" class="logo" /></a>
+            <div>
+                <input class="search-bar" type="search" placeholder="Search" />
+            </div>
+            <div class="btn-left">
+                <button onclick="location.href='login.html'" class="nav-btn">Login</button>
+                <a href="wishlist.html"><span class="material-icons nav-heart-icon">
+                    favorite_border</a>
+                <span class="nav-cart-icon">
+                    <a href="myCart.html"><span class="material-icons">
+                        shopping_cart</a>
+                    </span>
+                </span>
+                <span class="material-icons nav-hamburger-icon">
+                    menu
+                </span>
+            </div>
+        </nav>
+    </header>
+
+    <div class="cart-container">
+        <div class="my-cart-text">MY CART(2)</div>
+        <div class="product-bill">
+
+            <div class="cart-product">
+                <div class="card-2">
+                    <img class="card-img-2" src="/assets/img/model_image.jpg" />
+                    <div class="card-content card-addon">
+                        <div class="pricing-addon"> 
+                            <h5 class="card-content">Men premium Jacket</h5>
+                            <div class="price-part">
+                                <div class="discount-price">
+                                    <span class="material-icons rupee-icon">
+                                        currency_rupee
+                                    </span>
+                                    <h3 class="card-price">2000</h3>
+                                </div>
+                                <div class="original-price">
+                                    <span class="material-icons rupee-icon">
+                                        currency_rupee
+                                    </span>
+                                    <h3 class="card-price-cut">3999</h3>
+                                </div>
+                            </div>
+                            <span class="discount">50% off</span>
+                            <div class="quantity-container">
+                                <span>Quantity:</span>
+                                <button class="quantity-counter">-</button>
+                                <input class="quantity-count" type="text" /> 
+                                <button class="quantity-counter">+</button>
+                            </div>
+                        </div>
+                        <div class="card-button">
+                            <button class="card-btn">Go to cart</button>
+                            <button class="card-btn btn-color-addon">Remove from Wishlist</button>
+                        </div>
+                        
+                    </div>
+                    
+                </div>
+            </div>
+            <div class="cart-wrapper">
+                <div class="cart-bill">
+                    <h3 class="price-detail">PRICE DETAILS</h3><hr>
+                    <div class="product-price">
+                        <span class="product-count">Price (2 items)</span>
+                        <div class="cart-price">
+                            <span class="material-icons bill-rupee-icon">
+                                currency_rupee
+                            </span>
+                            <span class="product-rupee">4999</span>
+                        </div>
+                    </div>
+                    <div class="product-price">
+                        <span class="product-count">Discount</span>
+                        <div class="cart-price">
+                            <span>-</span>
+                            <span class="material-icons bill-rupee-icon">
+                                currency_rupee
+                            </span>
+                            <span class="product-rupee">1999</span>
+                        </div>
+                    </div>
+                    <div class="product-price">
+                        <span class="product-count">Delivery Charges</span>
+                        <div class="cart-price">
+                            <span class="material-icons bill-rupee-icon">
+                                currency_rupee
+                            </span>
+                            <span class="product-rupee">499</span>
+                        </div>
+                    </div><hr>
+                    <div class="product-price">
+                        <h3 class="total-amount">TOTAL AMOUNT</h3>
+                        <div class="cart-price">
+                            <span class="material-icons total-rupee-icon">
+                                currency_rupee
+                            </span>
+                            <span class="product-rupee-bold">3499</span>
+                        </div>
+                    </div><hr>
+                    <div class="savings-text">
+                        <span>You will save </span>
+                        <span class="cart-price">
+                            <span class="material-icons bill-rupee-icon">
+                                currency_rupee
+                            </span>
+                            <span class="product-rupee">1999</span>
+                        </span>
+                        <span class="last-text">on this order</span>
+                    </div>
+                    
+                   
+                    <button class="order-btn">PLACE ORDER</button>
+                </div>
+
+            </div>
+            
+            
+
+        </div>
+        
+    </div>
+</body>
+</html>
