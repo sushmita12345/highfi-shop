@@ -1,5 +1,4 @@
 @import "/assets/css/reset.css";
-@import "/assets/css/nav.css";
 @import "/assets/css/sidebar.css";
 
 .container-wrapper {
@@ -42,4 +41,19 @@
 .card-2 {
   width: 52rem;
   margin-left: 3.5rem;
+}
+
+.rupee-icon {
+  font-size: 2.4rem;
+  font-weight: 400;
+}
+
+.card-price {
+  font-size: 1.8rem;
+  font-weight: 600;
+}
+
+.card-price-cut {
+  font-size: 1.8rem;
+  font-weight: 600;
 }

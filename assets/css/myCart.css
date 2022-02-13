@@ -20,11 +20,11 @@
   height: 1.5rem;
   width: 1.5rem;
   border-radius: 50%;
-  padding-top: 0.2rem;
+  padding-top: 2px;
   border: 1px solid var(--grey);
   background-color: var(--white);
-  margin-left: 0.5rem;
-  margin-right: 0.5rem;
+  margin-left: 5px;
+  margin-right: 5px;
   line-height: 1rem;
 }
 
@@ -83,8 +83,8 @@
 .product-count {
   font-size: 1.2rem;
   font-weight: 400;
-  margin-top: 0.5rem;
-  margin-bottom: 0.5rem;
+  margin-top: 5px;
+  margin-bottom: 5px;
 }
 
 .cart-price {
@@ -101,8 +101,8 @@
 .total-amount {
   font-size: 1.5rem;
   font-weight: 600;
-  margin-top: 0.5rem;
-  margin-bottom: 0.5rem;
+  margin-top: 5px;
+  margin-bottom: 5px;
 }
 
 .product-rupee-bold {
@@ -122,8 +122,13 @@
   font-weight: 400;
 }
 
+.total-rupee-icon {
+  font-size: 1.5rem;
+  font-weight: 600;
+}
+
 .last-text {
-  padding-left: 0.4rem;
+  padding-left: 4px;
 }
 
 .order-btn {
